@@ -25,7 +25,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## Author
-* **N. Martin Abregú** - *Trabajo Inicial* - [mabregu](https://github.com/mabregu)
+* **N. Martin Abregú** - *Initial Work* - [mabregu](https://github.com/mabregu)
 
 ## Expresiones de Gratitud 🎁
 
