@@ -29,8 +29,8 @@ Vue.component('tasks', {
             newTask: "",
             tasks: [
                 { title: "Programar con los daneses", completed: true },
-                { title: "Ver app de los milicos", completed: false },
-                { "title": "Pagar expensas", completed: true }
+                { title: "Resolver bugs", completed: false },
+                { title: "Pagar expensas", completed: true }
             ]
         }
     },
