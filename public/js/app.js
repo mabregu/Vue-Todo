@@ -2,7 +2,7 @@ Vue.component('tasks', {
     template: `
         <section class="todoapp">
             <header class="header">
-                <h1>Tareas</h1>
+                <h1>Tasks</h1>
                 <input type="text" 
                     class="new-todo"
                     v-on:keyup.enter="add"
@@ -20,7 +20,7 @@ Vue.component('tasks', {
                 </ul>
             </section>
             <footer class="footer" v-show="tasks.length">
-                <span class="todo-count">Completas: {{ completed }} | Incompletas: {{ incompleted }}</span>
+                <span class="todo-count">Complete: {{ completed }} | Incompleted: {{ incompleted }}</span>
             </footer>
         </section>
     `,
@@ -28,15 +28,15 @@ Vue.component('tasks', {
         return {
             newTask: "",
             tasks: [
-                { title: "Programar con los daneses", completed: true },
-                { title: "Resolver bugs", completed: false },
-                { title: "Pagar expensas", completed: true }
+                { title: "Meet with the QA team", completed: true },
+                { title: "Fix connection", completed: false },
+                { title: "Pay mobile phone bill", completed: true }
             ]
         }
     },
     methods: {
         add() {
-            if (this.newTask.length <= 1) return alert('La tarea no puede estar vacia');
+            if (this.newTask.length <= 1) return alert('Task cannot be empty');
 
             this.tasks.push({
                 title: this.newTask,
