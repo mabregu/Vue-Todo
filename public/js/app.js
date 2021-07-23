@@ -7,7 +7,7 @@ Vue.component('tasks', {
                     class="new-todo"
                     v-on:keyup.enter="add"
                     v-model="newTask"
-                    placeholder="¿Qué deseas hacer?"
+                    placeholder="What do you want to do today?"
                 >
             </header>
             <section>
