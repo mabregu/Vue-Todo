@@ -27,7 +27,7 @@ Please make sure to update tests as appropriate.
 ## Author
 * **N. Martin Abregú** - *Initial Work* - [mabregu](https://github.com/mabregu)
 
-## Expresiones de Gratitud 🎁
+## Expressions of Gratitude 🎁
 
 * [Jorge](https://aprendible.com)
 
